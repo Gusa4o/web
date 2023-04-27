@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul[class],
+ol[class] {
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+ul[class],
+ol[class] {
+  list-style: none;
+}
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 800px;
+}
+.conteiner{
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-indent: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2{
+  text-align: center;
+  margin-top: 20px;
+  color: red;
+
+}
+.task2__img{
+  display: flex;
+  justify-content: space-around;
+
+}
+.task2__img img{
+width: 700px;
+height: 700px;  
+margin-top: -50px;
+}
+.task2__img img:last-child{
+margin-top: 45px;  
+}
+.task2{
+  margin-top: 40px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  transition: .4s;
+}
+
+a:hover{
+  color: blue;
+}
+
+.flowers{
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  padding: 10px;
+}
+.flowers img{
+  height: 200px;
+  width: 300px;
+  margin-right: 8px;
+}
+.flowers a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+li{
+  padding-right: 10px;
+}
