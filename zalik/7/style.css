@@ -1,0 +1,16 @@
+#square1, #square2 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: white;
+    font-family: Arial, serif;
+    font-weight: 600;
+    font-size: 4vh;
+    border: 2px solid black;
+    float: left;
+}
+
